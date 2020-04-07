@@ -1,0 +1,15 @@
+Package: silvRpeak
+Type: Package
+Title: Forecasting silver eel migration based on hydrological
+        conditions
+Version: 0.2.0
+Author: Nils Teichert
+Maintainer: The package maintainer <nils.teichert@mnhn.fr>
+Description: This package use multi-site gbm models to predict occurrence of silver eel migrations based on river hydrological conditions. 
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: zoo, lubridate, gbm, lunar, graphics
+RoxygenNote: 7.0.2
+NeedsCompilation: no
+Packaged: 2020-02-20 14:36:44 UTC; nteichert
